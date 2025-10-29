@@ -162,14 +162,6 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.3.1"
-  cached_video_player_plus:
-    dependency: transitive
-    description:
-      name: cached_video_player_plus
-      sha256: "222349570b9d8f1ece27bb6f1e575fc749bf4d241b0525da8e99eace3744d9c2"
-      url: "https://pub.flutter-io.cn"
-    source: hosted
-    version: "4.0.4"
   characters:
     dependency: transitive
     description:
@@ -448,22 +440,6 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "3.0.1"
-  get:
-    dependency: transitive
-    description:
-      name: get
-      sha256: c79eeb4339f1f3deffd9ec912f8a923834bec55f7b49c9e882b8fef2c139d425
-      url: "https://pub.flutter-io.cn"
-    source: hosted
-    version: "4.7.2"
-  get_storage:
-    dependency: transitive
-    description:
-      name: get_storage
-      sha256: "39db1fffe779d0c22b3a744376e86febe4ade43bf65e06eab5af707dc84185a2"
-      url: "https://pub.flutter-io.cn"
-    source: hosted
-    version: "2.1.1"
   html:
     dependency: transitive
     description:
@@ -1081,10 +1057,10 @@ packages:
     dependency: transitive
     description:
       name: video_player_platform_interface
-      sha256: "9e372520573311055cb353b9a0da1c9d72b094b7ba01b8ecc66f28473553793b"
+      sha256: "57c5d73173f76d801129d0531c2774052c5a7c11ccb962f1830630decd9f24ec"
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "6.5.0"
+    version: "6.6.0"
   video_player_web:
     dependency: transitive
     description:
@@ -1201,8 +1177,8 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: dev
-      resolved-ref: "51b0e637809e658617eaa0b0c5b0a79e3e3e08ce"
+      ref: apk1024
+      resolved-ref: "736a287c8b47b0141a236de207db0574a4081207"
       url: "https://github.com/smallsevenk/xmcs.git"
     source: git
     version: "0.0.1"

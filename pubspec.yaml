@@ -38,7 +38,12 @@ dependencies:
     # path: "../../flutter_xmcs/xmcs"
     git:
      url: https://github.com/smallsevenk/xmcs.git
-     ref: apk1024
+     ref: dev
+     
+  xmca:
+    # path: "../../xmca"
+    git:
+      url: 'https://github.com/smallsevenk/xmca.git'
 
 dev_dependencies:
   flutter_test:

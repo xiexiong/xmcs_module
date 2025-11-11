@@ -467,10 +467,10 @@ packages:
     dependency: transitive
     description:
       name: http
-      sha256: bb2ce4590bc2667c96f318d68cac1b5a7987ec819351d32b1c987239a815e007
+      sha256: "87721a4a50b19c7f1d49001e51409bddc46303966ce89a65af4f4e6004896412"
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "1.5.0"
+    version: "1.6.0"
   http_parser:
     dependency: transitive
     description:
@@ -1194,7 +1194,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "5f7f43580b79047671d3cf39fbd8ce92462a97a6"
+      resolved-ref: "4685e7b8e76faa498bfa2dde65580148e62c260e"
       url: "https://github.com/smallsevenk/xmca.git"
     source: git
     version: "0.0.1"
@@ -1203,7 +1203,7 @@ packages:
     description:
       path: "."
       ref: dev
-      resolved-ref: "05d362a5e423957cf99c03186385ecc91999e856"
+      resolved-ref: "9ff2587cc30078d3134d5e4e536f3b64ce350e1f"
       url: "https://github.com/smallsevenk/xmcs.git"
     source: git
     version: "0.0.1"

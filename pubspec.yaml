@@ -28,9 +28,6 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
-  bot_toast: 4.1.3
-  package_info_plus: 8.3.0
-  flutter_easyloading: 3.0.5
   flutter_localizations:
     sdk: flutter
   xmcs:

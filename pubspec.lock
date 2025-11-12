@@ -122,7 +122,7 @@ packages:
     source: hosted
     version: "2.1.2"
   bot_toast:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: bot_toast
       sha256: "6b93030a99a98335b8827ecd83021e92e885ffc61d261d3825ffdecdd17f3bdf"
@@ -368,7 +368,7 @@ packages:
     source: hosted
     version: "3.4.1"
   flutter_easyloading:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: flutter_easyloading
       sha256: ba21a3c883544e582f9cc455a4a0907556714e1e9cf0eababfcb600da191d17c
@@ -632,7 +632,7 @@ packages:
     source: hosted
     version: "2.1.0"
   package_info_plus:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: package_info_plus
       sha256: "7976bfe4c583170d6cdc7077e3237560b364149fcd268b5f53d95a991963b191"
@@ -1056,10 +1056,10 @@ packages:
     dependency: transitive
     description:
       name: video_player_avfoundation
-      sha256: "19ed1162a7a5520e7d7791e0b7b73ba03161b6a69428b82e4689e435b325432d"
+      sha256: "03fc6d07dba2499588d30887329b399c1fe2d68ce4b7fcff0db79f44a2603f69"
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "2.8.5"
+    version: "2.8.6"
   video_player_platform_interface:
     dependency: transitive
     description:
@@ -1194,7 +1194,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "4685e7b8e76faa498bfa2dde65580148e62c260e"
+      resolved-ref: "8fbbcf3ccb4e53c2e01dff54fa77e186417d96b3"
       url: "https://github.com/smallsevenk/xmca.git"
     source: git
     version: "0.0.1"
@@ -1203,7 +1203,7 @@ packages:
     description:
       path: "."
       ref: dev
-      resolved-ref: "9ff2587cc30078d3134d5e4e536f3b64ce350e1f"
+      resolved-ref: "3249f0bdef4bd274074c6115d85016939935a127"
       url: "https://github.com/smallsevenk/xmcs.git"
     source: git
     version: "0.0.1"

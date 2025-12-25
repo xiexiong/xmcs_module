@@ -30,17 +30,23 @@ dependencies:
   cupertino_icons: ^1.0.8
   flutter_localizations:
     sdk: flutter
+  bot_toast: 4.1.3
+  package_info_plus: 8.3.0
+  flutter_easyloading: 3.0.5
   xmcs:
     # path: "/Users/andy/zwork/code/xmcs"
-    # path: "../../flutter_xmcs/xmcs"
-    git:
-     url: https://github.com/smallsevenk/xmcs.git
-     ref: dev
+    path: "../xmcs"
+    # git:
+    #  url: https://github.com/smallsevenk/xmcs.git
+    #  ref: dev
      
   xmca:
-    # path: "../../xmca"
-    git:
-      url: 'https://github.com/smallsevenk/xmca.git'
+    path: "../xmca"
+    # git:
+    #   url: 'https://github.com/smallsevenk/xmca.git'
+
+  xmcp_digital:
+    path: ../xmcp_digital
 
 dev_dependencies:
   flutter_test:

@@ -45,8 +45,12 @@ dependencies:
     # git:
     #   url: 'https://github.com/smallsevenk/xmca.git'
 
-  xmcp_digital:
-    path: ../xmcp_digital
+  # xmcp_digital:
+  #   path: ../xmcp_digital
+
+  xmcp_base:
+    path: ../xmcp_base
+  
 
 dev_dependencies:
   flutter_test:

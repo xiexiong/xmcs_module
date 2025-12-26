@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:xmca/xmca.dart';
-import 'package:xmcp_digital/xmcp_digital.dart';
+import 'package:xmcp_base/comm/theme/theme.dart';
+// import 'package:xmcp_digital/xmcp_digital.dart';
 import 'package:xmcs/xmcs.dart';
 import 'package:xmcs_module/native_bridge.dart';
 import 'package:xmcs_module/router.dart';
@@ -157,7 +158,7 @@ class _HomePageState extends State<HomePage> {
               "appStyle": {"textScaler": '1', "iconScaler": "1", "titleScaler": "1"},
             };
             XNativeUtil.appParams = params;
-            context.push(grpXmdh);
+            // context.push(grpXmdh);
           }),
         ],
       ),

@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
-// import 'package:xmcp_digital/xmcp_digital.dart';
+import 'package:xmcp_digital/xmcp_digital.dart';
 import 'package:xmcs/xmcs.dart';
 import 'package:xmca/xmca.dart';
 
@@ -62,7 +62,7 @@ class NativeBridge {
               xmcaReferenceDetail: xmcaReferenceDetail,
             );
           } else if (method == 'openXmdh') {
-            // Xmdh.config(backToNative: returnToNative, xmdhShareVideo: xmdhShareVideo);
+            Xmdh.config(backToNative: returnToNative, xmdhShareVideo: xmdhShareVideo);
           }
         } else {
           xlog(

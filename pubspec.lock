@@ -333,10 +333,10 @@ packages:
     dependency: transitive
     description:
       name: ffi
-      sha256: "289279317b4b16eb2bb7e271abccd4bf84ec9bdcbe999e278a94b804f5630418"
+      sha256: d07d37192dbf97461359c1518788f203b0c9102cfd2c35a716b823741219542c
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "2.1.4"
+    version: "2.1.5"
   file:
     dependency: transitive
     description:
@@ -394,11 +394,11 @@ packages:
     dependency: transitive
     description:
       path: "."
-      ref: "0.1.2"
-      resolved-ref: "22b6479dd6dcc2167de63f6f22b0e3c86c6ea5c5"
-      url: "https://github.com/smallsevenk/FlutterAliyunNui.git"
+      ref: "0.0.1"
+      resolved-ref: "55576764097b94514f2279f9974679987e433df6"
+      url: "https://gitlab.yofoto.cn/xm/client/ai/flutter_aliyun_nui"
     source: git
-    version: "0.1.2"
+    version: "0.0.1"
   flutter_bloc:
     dependency: transitive
     description:
@@ -1084,10 +1084,10 @@ packages:
     dependency: transitive
     description:
       name: shared_preferences_android
-      sha256: "83af5c682796c0f7719c2bbf74792d113e40ae97981b8f266fa84574573556bc"
+      sha256: cbc40be9be1c5af4dab4d6e0de4d5d3729e6f3d65b89d21e1815d57705644a6f
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "2.4.18"
+    version: "2.4.20"
   shared_preferences_foundation:
     dependency: transitive
     description:
@@ -1281,10 +1281,10 @@ packages:
     dependency: transitive
     description:
       name: video_player_avfoundation
-      sha256: e4d33b79a064498c6eb3a6a492b6a5012573d4943c28d566caf1a6c0840fe78d
+      sha256: d1eb970495a76abb35e5fa93ee3c58bd76fb6839e2ddf2fbb636674f2b971dd4
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "2.8.8"
+    version: "2.8.9"
   video_player_platform_interface:
     dependency: transitive
     description:
@@ -1409,46 +1409,56 @@ packages:
   xkit:
     dependency: transitive
     description:
-      path: "../xkit"
-      relative: true
-    source: path
-    version: "0.0.3"
+      path: "."
+      ref: "0.0.1"
+      resolved-ref: da0f9c361d8cb242d5e882f56364f5dcc0a69d15
+      url: "https://gitlab.yofoto.cn/xm/client/ai/xmkit"
+    source: git
+    version: "0.0.1"
   xm_video_player:
     dependency: transitive
     description:
       path: "."
-      ref: "0.0.3"
-      resolved-ref: "678d29a325b677520645a37e4b2a060c366caf5c"
-      url: "https://github.com/smallsevenk/xm_video_player.git"
+      ref: "0.0.1"
+      resolved-ref: "33216561a9ca3140a694ff0d584e0c964f54ea4c"
+      url: "https://gitlab.yofoto.cn/xm/client/ai/xm_video_player"
     source: git
-    version: "0.0.3"
+    version: "0.0.1"
   xmca:
     dependency: "direct main"
     description:
-      path: "../xmca"
-      relative: true
-    source: path
+      path: "."
+      ref: "0.0.1"
+      resolved-ref: "768a3b93ee6f875fafa3e16800412df5d2d81c2e"
+      url: "https://gitlab.yofoto.cn/xm/client/ai/xmca"
+    source: git
     version: "0.0.1"
   xmcp_base:
     dependency: "direct main"
     description:
-      path: "../xmcp_base"
-      relative: true
-    source: path
-    version: "0.0.1"
+      path: "."
+      ref: "0.0.3"
+      resolved-ref: "6e0442222bac7617adc3db09e8db97d8d309a0eb"
+      url: "https://gitlab.yofoto.cn/xm/client/ai/xmcp_base"
+    source: git
+    version: "0.0.3"
   xmcp_digital:
     dependency: "direct main"
     description:
-      path: "../xmcp_digital"
-      relative: true
-    source: path
-    version: "0.0.1"
+      path: "."
+      ref: dev
+      resolved-ref: "6c37bac068c7c17d196c8c2c8b8520608fe0c053"
+      url: "https://gitlab.yofoto.cn/xm/client/ai/xmcp_digital.git"
+    source: git
+    version: "0.0.2"
   xmcs:
     dependency: "direct main"
     description:
-      path: "../xmcs"
-      relative: true
-    source: path
+      path: "."
+      ref: HEAD
+      resolved-ref: "3752242d056d6a63452f13f583c1d384d9c48cf4"
+      url: "https://gitlab.yofoto.cn/xm/client/ai/xmcs"
+    source: git
     version: "0.0.1"
   xml:
     dependency: transitive
@@ -1462,9 +1472,9 @@ packages:
     dependency: transitive
     description:
       path: "."
-      ref: HEAD
-      resolved-ref: abcf89ad411d185dd334e3d1231d2b45412964ca
-      url: "https://github.com/xiexiong/xmvx_interface_plugin.git"
+      ref: "0.0.1"
+      resolved-ref: eadb5d8a1fdfa6b59c7c93211e7204e71ab470a8
+      url: "https://gitlab.yofoto.cn/xm/client/ai/xmvx_interface_plugin"
     source: git
     version: "0.0.1"
 sdks:

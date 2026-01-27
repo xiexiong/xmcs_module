@@ -35,21 +35,32 @@ dependencies:
   flutter_easyloading: 3.0.5
   xmcs:
     # path: "/Users/andy/zwork/code/xmcs"
-    path: "../xmcs"
-    # git:
-    #  url: https://github.com/smallsevenk/xmcs.git
-    #  ref: dev
+    # path: "../xmcs"
+    git:
+     url: https://gitlab.yofoto.cn/xm/client/ai/xmcs
      
   xmca:
-    path: "../xmca"
-    # git:
-    #   url: 'https://github.com/smallsevenk/xmca.git'
+    # path: "../xmca"
+    git:
+      url: "https://gitlab.yofoto.cn/xm/client/ai/xmca"
+      ref: 0.0.1
 
   xmcp_digital:
-    path: ../xmcp_digital
+    # path: ../xmcp_digital
+    git:
+      url: https://gitlab.yofoto.cn/xm/client/ai/xmcp_digital.git
+      ref: dev
 
   xmcp_base:
-    path: ../xmcp_base
+    # path: ../xmcp_base
+    git:
+      url: https://gitlab.yofoto.cn/xm/client/ai/xmcp_base
+      ref: 0.0.3
+
+dependency_overrides: 
+  # 强制覆盖所有第三方库的flutter_localizations依赖声明
+  flutter_localizations:
+    sdk: flutter
   
 
 dev_dependencies:

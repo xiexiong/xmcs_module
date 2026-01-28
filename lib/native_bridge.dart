@@ -1,11 +1,8 @@
 import 'package:flutter/foundation.dart';
-import 'package:flutter/material.dart';
-
 import 'package:flutter/services.dart';
 import 'package:xmcp_digital/xmcp_digital.dart';
 import 'package:xmcs/xmcs.dart';
 import 'package:xmca/xmca.dart';
-import 'package:xmcs_module/router.dart';
 
 class NativeBridge {
   late final MethodChannel _channel;
@@ -46,16 +43,14 @@ class NativeBridge {
     _channel.setMethodCallHandler((call) async {
       var method = call.method;
       var params = call.arguments;
-
-      xlog('NativeBridge ==> nativeCall:$method\n$params');
+      xlog('NativeBridge ==> nativeCall:$method\n$params}');
       try {
         Map<String, dynamic>? nativeArgs;
         if (params is Map) {
           nativeArgs = Map<String, dynamic>.from(params);
         }
         if (nativeArgs != null) {
-          xlog('NativeBridge ==> Received params : $nativeArgs');
-
+          xlog('NativeBridge ==> Received params is Map<String, dynamic>: $nativeArgs');
           // 设置全局 Native 公共参数
           XNativeUtil.appParams = nativeArgs;
           if (method == 'openXmcs') {
@@ -68,20 +63,6 @@ class NativeBridge {
             );
           } else if (method == 'openXmdh') {
             Xmdh.config(backToNative: returnToNative, xmdhShareVideo: xmdhShareVideo);
-          }
-          // 切换根路由
-          var initRoute = nativeArgs['initRoute'];
-          xlog('initRoute1$initRoute');
-          if (initRoute != null && initRoute is String) {
-            // 获取当前路由
-            var currentContext = XRouter.instance.navigatorKey.currentContext;
-            String? currentRoot;
-            if (currentContext != null) {
-              currentRoot = Navigator.of(currentContext).widget.pages.first.name;
-              xlog('currentRoot$currentRoot');
-              currentContext.go(initRoute);
-              xlog('NativeBridge ==> Switch initRoute : $initRoute');
-            }
           }
         } else {
           xlog(
@@ -96,10 +77,6 @@ class NativeBridge {
 
   // 点击回退
   Future<T?> returnToNative<T>() async {
-    var currentContext = XRouter.instance.navigatorKey.currentContext;
-    if (currentContext != null) {
-      currentContext.go(launch);
-    }
     return await invokeNativeMethod('backToNative');
   }
 

@@ -1,18 +1,6 @@
-/*
- * 文件名称: main.dart
- * 创建时间: 2026/01/22 15:19:09
- * 作者名称: Andy.Zhao
- * 联系方式: smallsevenk@vip.qq.com
- * 创作版权: Copyright (c) 2026 XianHua Zhao (andy)
- * 功能描述: 入口文件
- */
-
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:xmca/xmca.dart';
-import 'package:xmcp_base/comm/theme/theme.dart';
-import 'package:xmcp_digital/pages/router.dart';
-
+import 'package:xmcp_digital/xmcp_digital.dart';
 import 'package:xmcs/xmcs.dart';
 import 'package:xmcs_module/native_bridge.dart';
 import 'package:xmcs_module/router.dart';
@@ -35,8 +23,6 @@ void xmNativeMain(List<String> entrypointArgs) async {
 
 void appInit(Function() setting) async {
   WidgetsFlutterBinding.ensureInitialized();
-  // 禁用竖屏，只允许横屏
-  SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
   await XGlobal.init();
   XLoading.init();
   setting.call();
@@ -61,7 +47,7 @@ class _CsAppState extends State<CsApp> {
   Widget build(BuildContext context) {
     xdp('_CsAppState');
     return ChangeNotifierProvider(
-      create: (context) => AppTheme.get()..mode = AppTheme.themeModeFormString('light'),
+      create: (context) => AppTheme.get()..mode = AppTheme.themeModeFormString('system'),
       builder: (context, _) {
         final appTheme = context.watch<AppTheme>();
         return ScreenUtilInit(
@@ -74,6 +60,7 @@ class _CsAppState extends State<CsApp> {
               theme: createLightThemeData(context),
               darkTheme: createDarkThemeData(),
               debugShowCheckedModeBanner: false,
+
               localizationsDelegates: [
                 GlobalMaterialLocalizations.delegate,
                 GlobalWidgetsLocalizations.delegate,
@@ -148,13 +135,10 @@ class _HomePageState extends State<HomePage> {
               "appParams": {
                 "openToken": "sds",
                 "appKey": "GrA3gEpJZNJB7__-mnMtUg==",
-                "baseUrl": "http://api.im.test.xmsharetalk.cn/",
-                // "companyId": "1",
-                // "communityTopId": "1",
-                // "communityId": "1",
-                "companyId": "6632",
-                "communityTopId": "6632",
-                "communityId": "9050880848",
+                "companyId": "1",
+                "communityTopId": "1",
+                "communityId": "1",
+                "baseUrl": "sss",
               },
               "appStyle": {"textScaler": '1', "iconScaler": "1", "titleScaler": "1"},
             };

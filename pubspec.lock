@@ -1447,7 +1447,7 @@ packages:
     description:
       path: "."
       ref: dev
-      resolved-ref: "6c37bac068c7c17d196c8c2c8b8520608fe0c053"
+      resolved-ref: "0fc71799a54da99f9b1509cf6735fc646b017ad5"
       url: "https://gitlab.yofoto.cn/xm/client/ai/xmcp_digital.git"
     source: git
     version: "0.0.2"
@@ -1456,7 +1456,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "3752242d056d6a63452f13f583c1d384d9c48cf4"
+      resolved-ref: "84965a0f06813f3ab5562a9f74d4baa112a44620"
       url: "https://gitlab.yofoto.cn/xm/client/ai/xmcs"
     source: git
     version: "0.0.1"

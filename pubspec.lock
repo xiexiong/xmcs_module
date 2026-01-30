@@ -507,10 +507,10 @@ packages:
     dependency: transitive
     description:
       name: go_router
-      sha256: "2cb236ba3f923043fdbe14a6a3a796b8c250e85658e28caee3e86c0c275847e5"
+      sha256: eff94d2a6fc79fa8b811dde79c7549808c2346037ee107a1121b4a644c745f2a
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "8.2.0"
+    version: "17.0.1"
   html:
     dependency: transitive
     description:
@@ -1410,11 +1410,11 @@ packages:
     dependency: transitive
     description:
       path: "."
-      ref: "0.0.1"
-      resolved-ref: da0f9c361d8cb242d5e882f56364f5dcc0a69d15
+      ref: "0.0.2"
+      resolved-ref: "9e1c2505ea8fb2e9991f55cebf0f665377635e25"
       url: "https://gitlab.yofoto.cn/xm/client/ai/xmkit"
     source: git
-    version: "0.0.1"
+    version: "0.0.2"
   xm_video_player:
     dependency: transitive
     description:
@@ -1427,27 +1427,25 @@ packages:
   xmca:
     dependency: "direct main"
     description:
-      path: "."
-      ref: "0.0.1"
-      resolved-ref: "768a3b93ee6f875fafa3e16800412df5d2d81c2e"
-      url: "https://gitlab.yofoto.cn/xm/client/ai/xmca"
-    source: git
-    version: "0.0.1"
+      path: "../../xmai_gitlab/xmca"
+      relative: true
+    source: path
+    version: "0.0.3"
   xmcp_base:
     dependency: "direct main"
     description:
       path: "."
-      ref: "0.0.3"
-      resolved-ref: "6e0442222bac7617adc3db09e8db97d8d309a0eb"
+      ref: "0.0.4"
+      resolved-ref: "73652ba47dca2d364296504a3f8777b0bfb1a7ed"
       url: "https://gitlab.yofoto.cn/xm/client/ai/xmcp_base"
     source: git
-    version: "0.0.3"
+    version: "0.0.4"
   xmcp_digital:
     dependency: "direct main"
     description:
       path: "."
       ref: dev
-      resolved-ref: "0fc71799a54da99f9b1509cf6735fc646b017ad5"
+      resolved-ref: "152e3d2ae43c4abc04904cdb8287cf5c79849afc"
       url: "https://gitlab.yofoto.cn/xm/client/ai/xmcp_digital.git"
     source: git
     version: "0.0.2"
@@ -1456,7 +1454,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "84965a0f06813f3ab5562a9f74d4baa112a44620"
+      resolved-ref: "8d2aee8c0c1d8dc166b16d9175cbfa071725596e"
       url: "https://gitlab.yofoto.cn/xm/client/ai/xmcs"
     source: git
     version: "0.0.1"

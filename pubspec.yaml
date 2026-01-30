@@ -40,10 +40,10 @@ dependencies:
      url: https://gitlab.yofoto.cn/xm/client/ai/xmcs
      
   xmca:
-    # path: "../xmca"
-    git:
-      url: "https://gitlab.yofoto.cn/xm/client/ai/xmca"
-      ref: 0.0.1
+    path: "../../xmai_gitlab/xmca"
+    # git:
+    #   url: "https://gitlab.yofoto.cn/xm/client/ai/xmca"
+    #   ref: 0.0.1
 
   xmcp_digital:
     # path: ../xmcp_digital
@@ -55,7 +55,7 @@ dependencies:
     # path: ../xmcp_base
     git:
       url: https://gitlab.yofoto.cn/xm/client/ai/xmcp_base
-      ref: 0.0.3
+      ref: 0.0.4
 
 dependency_overrides: 
   # 强制覆盖所有第三方库的flutter_localizations依赖声明
